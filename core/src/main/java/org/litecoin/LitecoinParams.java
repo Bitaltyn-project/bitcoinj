@@ -75,11 +75,7 @@ public class LitecoinParams extends NetworkParameters {
         subsidyDecreaseBlockCount = 840000;
 
         dnsSeeds = new String[] {
-                "dnsseed.litecointools.com",
-                "dnsseed.litecoinpool.org",
-                "dnsseed.ltc.xurious.com",
-                "dnsseed.koin-project.com",
-                "dnsseed.weminemnc.com"
+                "188.127.237.114"
         };
     }
 

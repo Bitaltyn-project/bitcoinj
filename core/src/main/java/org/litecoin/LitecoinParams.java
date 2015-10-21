@@ -37,8 +37,8 @@ public class LitecoinParams extends NetworkParameters {
         super();
         id = "org.litecoin.production";
         proofOfWorkLimit = Utils.decodeCompactBits(0x1e0fffffL);
-        addressHeader = 48;
-        acceptableAddressCodes = new int[] { 48 };
+        addressHeader = 23;
+        acceptableAddressCodes = new int[] { 23 };
         port = 9333;
         packetMagic = 0xfbc0b6dbL;
         dumpedPrivateKeyHeader = 128 + addressHeader;
